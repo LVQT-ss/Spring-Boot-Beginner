@@ -1,27 +1,28 @@
-package Model;
+package com.LVQT.quickstart.Model;
 
 public class User {
-    String Username;
-    String Password;
+    String username;
+    String password;
 
     public User(String username, String password) {
-        Username = username;
-        Password = password;
+        this.username = username;
+        this.password = password;
     }
 
     public String getUsername() {
-        return Username;
+        return username;
     }
 
     public void setUsername(String username) {
-        Username = username;
+        this.username = username;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
     }
+
 }
